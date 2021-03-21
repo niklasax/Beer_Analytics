@@ -6,12 +6,8 @@
 * **Description of the source data:** This Dataset contains two CSVs pertaining to beer types and breweries:
   * Beers CSV file: Contains data specific to each craft beer (alcohol content, name, type etc..)
   * Breweries CSV file: Contains data specific to each Brewery (brewery name, state located in, city located in). Can be merged with beers.csv on 'brewery_id'.
-* **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on ibu (biterness) and alcohol content (abv).
+* **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on features of the beer.
 
-Selected topic
-Reason they selected the topic
-Description of the source of data
-Questions they hope to answer with the data
 
 
 
