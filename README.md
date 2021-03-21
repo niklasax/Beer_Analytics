@@ -1,5 +1,9 @@
 # Final Project
 
+## Resources
+
+Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS
+
 ## Topic and Data selected
 * **Selected Topic:** Craft Beer
 * **Reason for Selected topic:** This topic was one that all the members of the group had familiarity and interest in
@@ -14,7 +18,7 @@
 ## Communication Protocols
 
 Our team communicated across various platforms to plan, discuss and execute the project objectives. The three primary communication tools were Slack, Text and Zoom:
-* **Slack:** We created a Slack group as a repository for links, git commands, project instructions and other resources
+* **Slack:** We created a Slack group as a repository for links, git commands, project instructions and other helpful items.
 * **Text:** We used text as a means to discuss ideas, organize meeting times and make decisions.
 * **Zoom:** We used Zoom during class times to work on issues (virtually) face to face, together in real time.
 
