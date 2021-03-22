@@ -18,8 +18,6 @@ Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS
 * **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on features of the beer.
 
 
-
-
 ## Communication Protocols
 
 Our team communicated across various platforms to plan, discuss and execute the project objectives. The three primary communication tools were Slack, Text and Zoom:
@@ -34,5 +32,5 @@ We were then able to take in the provisional data and use the train_test_split f
 
 
 ## Database Integration
-A AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
+An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
 With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook. 
