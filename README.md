@@ -1,6 +1,3 @@
-# final_project_test
-
-
 # Final Project
 
 ## Resources
