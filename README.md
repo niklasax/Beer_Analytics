@@ -1,9 +1,17 @@
 # Final Project
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> 14a5af326d31fb36c7976cd4dc6fc2a7455a23c5
 <p align = "center">
 <img src = "https://rlv.zcache.com/periodic_table_of_beer_styles_poster-ra7fb9b6684f8466f9abfdd9262630cf4_6rq_8byvr_704.jpg">
 </p>
 <br>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 14a5af326d31fb36c7976cd4dc6fc2a7455a23c5
 ## Resources
 
 Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS
@@ -25,13 +33,18 @@ Our team communicated across various platforms to plan, discuss and execute the 
 * **Zoom:** We used Zoom during class times to work on issues (virtually) face to face, together in real time.
 
 ## Machine Learning Model
+<<<<<<< HEAD
 =======
 Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
 We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
 
+=======
+
+Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
+We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
+
+
+>>>>>>> 14a5af326d31fb36c7976cd4dc6fc2a7455a23c5
 ## Database Integration
-
-Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
-
-Sample data that mimics the expected final database structure or schema
-Draft machine learning model is connected to the provisional database
+A AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
+With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook. 
