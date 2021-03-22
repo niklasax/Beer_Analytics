@@ -29,15 +29,9 @@ Our team communicated across various platforms to plan, discuss and execute the 
 
 ## Machine Learning Model
 
-Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-
-Takes in data from the provisional database
-Outputs label for input data
-=======
 Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
 We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
 
->>>>>>> MachineLearning
 
 ## Database Integration
 A AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
