@@ -47,4 +47,4 @@ We were then able to take in the provisional data and use the train_test_split f
 >>>>>>> 14a5af326d31fb36c7976cd4dc6fc2a7455a23c5
 ## Database Integration
 An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
-With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook. 
+With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook.  
