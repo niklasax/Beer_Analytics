@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 # final_project_test
 
 
-### Database 
-A WS Postgres Database instance has been set up to store the cleaned and transformed data. 
-With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook. 
-=======
 # Final Project
 
 ## Resources
@@ -38,9 +33,5 @@ Takes in data from the provisional database
 Outputs label for input data
 
 ## Database Integration
-
-Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
-
-Sample data that mimics the expected final database structure or schema
-Draft machine learning model is connected to the provisional database
->>>>>>> e3bf6c5a082690295256acc45c6a58c28df3ed1b
+A AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
+With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook. 
