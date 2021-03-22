@@ -1,13 +1,11 @@
 # Final Project
 
-
 =======
 <p align = "center">
 <img src = "https://rlv.zcache.com/periodic_table_of_beer_styles_poster-ra7fb9b6684f8466f9abfdd9262630cf4_6rq_8byvr_704.jpg">
 </p>
 <br>
 
->>>>>>> MachineLearning
 ## Resources
 
 Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS
@@ -32,7 +30,6 @@ Our team communicated across various platforms to plan, discuss and execute the 
 
 ## Machine Learning Model
 
-<<<<<<< HEAD
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
 Takes in data from the provisional database
