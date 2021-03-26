@@ -43,8 +43,11 @@ We were then able to take in the provisional data and use the train_test_split f
 Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
 We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
 
+<<<<<<< HEAD
 
 >>>>>>> 14a5af326d31fb36c7976cd4dc6fc2a7455a23c5
+=======
+>>>>>>> 0b06138cbacb12d41230b34b36d90431b9c14ca1
 ## Database Integration
 An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
 With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook.  
