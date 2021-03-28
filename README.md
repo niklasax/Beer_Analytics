@@ -1,5 +1,7 @@
 # Final Project
 
+Link to Google Slides Presentation: https://docs.google.com/presentation/d/1plzO1RmnGwcuphdBBIg4B_E85VguzFJXwS64HdTugO4/edit#slide=id.gca229a901d_0_57
+
 ## Resources
 
 Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS, Google Slides, Tableau
