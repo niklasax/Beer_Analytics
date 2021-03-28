@@ -7,7 +7,7 @@
 
 ## Resources
 
-Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS, Google Slides, Tableau
+Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS (TEST)
 
 ## Topic and Data selected
 * **Selected Topic:** Craft Beer
