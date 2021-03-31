@@ -4,17 +4,21 @@
 
 [Link to Tableau Story](https://public.tableau.com/profile/nik6051#!/vizhome/Beer_Analytics/Story1?publish=yes)
 
+[Link to Tableau Dashboard](https://public.tableau.com/views/CraftBeersProject/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+
 ## Resources
 
-Python Pandas, SQLAlchemy, PostgreSQL 12.2, Amazon AWS RDS, Google Slides, Tableau
+* **Data Analysis:** Python Pandas, SQLAlchemy
+* **Database:** PostgreSQL 12.2, Amazon AWS RDS
+* **Presentation:** Google Slides, Tableau
 
 ## Topic and Data selected
 * **Selected Topic:** Craft Beer
 * **Reason for Selected topic:** This topic was one that all the members of the group had familiarity and interest in
-* **Description of the source data:** This Dataset contains two CSVs pertaining to beer types and breweries:
-  * Beers CSV file: Contains data specific to each craft beer (alcohol content, name, type etc..)
-  * Breweries CSV file: Contains data specific to each Brewery (brewery name, state located in, city located in). Can be merged with beers.csv on 'brewery_id'.
-* **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on features of the beer.
+* **Description of the source data:** This Dataset contains two CSVs pertaining to beer types and breweries s from Kaggle.com:
+  * [Beers CSV file](https://www.kaggle.com/nickhould/craft-cans?select=beers.csv): Contains data specific to each craft beer (alcohol content, name, type etc..)
+  * [Breweries CSV file](https://www.kaggle.com/nickhould/craft-cans?select=breweries.csv): Contains data specific to each Brewery (brewery name, state located in, city located in). Can be merged with beers.csv on 'brewery_id'.
+* **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on features of the beer?
 
 
 ## Communication Protocols
