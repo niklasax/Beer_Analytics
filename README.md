@@ -2,7 +2,7 @@
 
 [Link to Google Slides Presentation](https://docs.google.com/presentation/d/1plzO1RmnGwcuphdBBIg4B_E85VguzFJXwS64HdTugO4/edit#slide=id.gca229a901d_0_57)
 
-[Link to Tableau Story](https://public.tableau.com/profile/nik6051#!/vizhome/Beer_Analytics/Story1?publish=yes)
+[Link to Tableau Story](https://public.tableau.com/profile/nik6051#!/vizhome/Beer_Analytics/Beer_Analytics?publish=yes)
 
 [Link to Tableau Dashboard](https://public.tableau.com/views/CraftBeersProject/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
