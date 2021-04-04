@@ -47,8 +47,8 @@ With the data accessible it is then read in directly to the python environment b
 ## Database 
 An AWS Postgres Database instance has been set up to allow for remote connections. 
 
-Cleaned and transformed data is loaded into the respective schema of the database through connecting using the SQLaclemy Library. 
-Inversly data can be read into python envorinmets for analyzing by querying the loaded data from the dtabase. 
+Cleaned and transformed data is loaded into the respective schema of the database with SQLalchemy. 
+Inversely, data can be read into python environments for analyzing by querying the loaded data from the database. 
 
  
 
