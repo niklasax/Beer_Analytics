@@ -31,22 +31,27 @@ The first part of our Analyis involved cleaning and merging the datasets using P
 
 ### 2.) Machine Learning Model
 
-We chose to use Random Forest as a Classifier because it uses labeled data to “learn” how to classify unlabeled data. Some of the benefits of using Random Forest algorithm is very stable, it works well when you have both categorical and numerical data, and it works well if your data hasn’t been scaled well. One of the disadvantages is that it is more complex which requires more computational resources.
+Preliminary data processing was done by cleaning the merged dataset using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis.
 
-How did we split our data? First, the loaded dataset must be split into input and output components. Next, we can split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
+## How the data was split:
+First, the loaded dataset must be split into input and output components. Next, we can split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
+
+We separated our dataset into our features and target:
+
+* **Feature (1) ABV: Alcohol by volume (abbreviated as ABV, abv, or alc/vol) is a standard measure of how much alcohol (ethanol) is contained in a given volume of an alcoholic beverage. (In our case... beer!).
+* **Feature (2) IBU: The International Bittering Units scale, or simply IBU scale, is used to approximately quantify the bitterness of beer.
+* **Target is Style_group, a term used to differentiate and categorize beers by factors such as color, flavor, strength, ingredients, production method, recipe, history, or origin.
+
+## Explanation of Model Choice
+We chose Random Forest Classifier because it uses labeled data to “learn” how to classify unlabeled data. Some of the benefits of using Random Forest algorithm is very stable, it works well when you have both categorical and numerical data, and it works well if your data hasn’t been scaled well. One of the disadvantages is that it is more complex which requires more computational resources.
+
+## Training
+We then created 100 trees of random samples of the data to train each tree on different samples. Predictions were then made by averaging the predictions of each decision tree. 
+
 
 ### 3.) Result Interpretation and Data Visualization
 
 We successfully ran our model and [input results here]. From there, we visualized our results and dataset using Tableau story to illustrate features of our dataset and the results. 
-
-
-## Machine Learning Model
-Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
-We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
-
-Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
-We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
-
 
 ## Database Integration
 An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
