@@ -48,6 +48,18 @@ We chose Random Forest Classifier because it uses labeled data to “learn” ho
 ## Training
 We then created 100 trees of random samples of the data to train each tree on different samples. Predictions were then made by averaging the predictions of each decision tree. 
 
+## Results Explination
+
+## Conclusion
+
+* **American IPA and American Amber/ Red Ale combines too many IBUs and ABVs.
+* **The IBU and ABV range of American Blonde Ale and American Pale Wheat Ale are almost identical.
+* **Fruit / Vegetable Beer is the most soft flavours and then Hefeweizen.
+* **American Double / Imperial ALE is most bitterness and alcoholic beer.
+* **American Brown Ale and American Porter seems to be are almost identical with relatively low IBU and wide range in acohol.
+* **American Pale Ale tends to be a soft beer.
+
+Therefore, there is no a clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
 
 ### 3.) Result Interpretation and Data Visualization
 
