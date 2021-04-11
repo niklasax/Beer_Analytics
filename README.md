@@ -70,8 +70,4 @@ An AWS Postgres Database instance has been set up to store the cleaned and trans
 With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook.  
 
 
-## Database 
-An AWS Postgres Database instance has been set up to allow for remote connections. 
 
-Cleaned and transformed data is loaded into the respective schema of the database with SQLalchemy. 
-Inversely, data can be read into python environments for analyzing by querying the loaded data from the database.
