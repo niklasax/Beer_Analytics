@@ -2,15 +2,16 @@
 
 [Link to Google Slides Presentation](https://docs.google.com/presentation/d/1plzO1RmnGwcuphdBBIg4B_E85VguzFJXwS64HdTugO4/edit#slide=id.gca229a901d_0_57)
 
-[Link to Tableau Story](https://public.tableau.com/profile/nik6051#!/vizhome/Beer_Analytics/Story1?publish=yes)
+[Link to Tableau Story](https://public.tableau.com/profile/nik6051#!/vizhome/Beer_Analytics/Beer_Analytics?publish=yes)
 
 [Link to Tableau Dashboard](https://public.tableau.com/views/CraftBeersProject/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
-## Resources
 
+## Resources
 * **Data Analysis:** Python Pandas, SQLAlchemy
 * **Database:** PostgreSQL 12.2, Amazon AWS RDS
 * **Presentation:** Google Slides, Tableau
+
 
 ## Topic and Data selected
 * **Selected Topic:** Craft Beer
@@ -20,31 +21,53 @@
   * [Breweries CSV file](https://www.kaggle.com/nickhould/craft-cans?select=breweries.csv): Contains data specific to each Brewery (brewery name, state located in, city located in). Can be merged with beers.csv on 'brewery_id'.
 * **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on features of the beer?
 
+## Outline of Project
 
-## Communication Protocols
+Our project wishes to answer one simple question- Can you determine a type of beer based on it's bitterness and alcohol content? This execution of this analysis can be summarized in the three steps below.
 
-Our team communicated across various platforms to plan, discuss and execute the project objectives. The three primary communication tools were Slack, Text and Zoom:
-* **Slack:** We created a Slack group as a repository for links, git commands, project instructions and other helpful items.
-* **Text:** We used text as a means to discuss ideas, organize meeting times and make decisions.
-* **Zoom:** We used Zoom during class times to work on issues (virtually) face to face, together in real time.
+### 1.) Data Exploration and Database Integration
 
-## Machine Learning Model
+The first part of our Analyis involved cleaning and merging the datasets using Python’s Pandas library to get rid of Null values, group attributes into a new columns and filter only for data that will be used in the final analysis. We connected AWS RDS to a local PostgresSQL server using SQLAlchemy, joined the data with a Postgres query and connected Postgres to our Machine Learning Model. 
 
-Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
-We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
+### 2.) Machine Learning Model
 
+Preliminary data processing was done by cleaning the merged dataset using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis.
 
+## How the data was split:
+First, the loaded dataset must be split into input and output components. Next, we can split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
 
-Using sqlalchemy, we established a database connection to our cleaned data by using the create_engine(database) function to communicate with our sql file.
-We were then able to take in the provisional data and use the train_test_split function in the Sklearn model to split our arrays into our training and test data. From there we could use y_train to output our lablels.
+We separated our dataset into our features and target:
 
+* **Feature (1) ABV: Alcohol by volume (abbreviated as ABV, abv, or alc/vol) is a standard measure of how much alcohol (ethanol) is contained in a given volume of an alcoholic beverage. (In our case... beer!).
+* **Feature (2) IBU: The International Bittering Units scale, or simply IBU scale, is used to approximately quantify the bitterness of beer.
+* **Target is Style_group, a term used to differentiate and categorize beers by factors such as color, flavor, strength, ingredients, production method, recipe, history, or origin.
+
+## Explanation of Model Choice
+We chose Random Forest Classifier because it uses labeled data to “learn” how to classify unlabeled data. Some of the benefits of using Random Forest algorithm is very stable, it works well when you have both categorical and numerical data, and it works well if your data hasn’t been scaled well. One of the disadvantages is that it is more complex which requires more computational resources.
+
+## Training
+We then created 100 trees of random samples of the data to train each tree on different samples. Predictions were then made by averaging the predictions of each decision tree. 
+
+## Results Explination
+
+## Conclusion
+
+* **American IPA and American Amber/ Red Ale combines too many IBUs and ABVs.
+* **The IBU and ABV range of American Blonde Ale and American Pale Wheat Ale are almost identical.
+* **Fruit / Vegetable Beer is the most soft flavours and then Hefeweizen.
+* **American Double / Imperial ALE is most bitterness and alcoholic beer.
+* **American Brown Ale and American Porter seems to be are almost identical with relatively low IBU and wide range in acohol.
+* **American Pale Ale tends to be a soft beer.
+
+Therefore, there is no a clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
+
+### 3.) Result Interpretation and Data Visualization
+
+We successfully ran our model and [input results here]. From there, we visualized our results and dataset using Tableau story to illustrate features of our dataset and the results. 
 
 ## Database Integration
 An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
 With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook.  
 
-
-
- 
 
 
