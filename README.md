@@ -35,7 +35,14 @@ How did we split our data? First, the loaded dataset must be split into input an
 
 ### 3.) Result Interpretation and Data Visualization
 
-We successfully ran our model and [input results here]. From there, we visualized our results and dataset using Tableau story to illustrate features of our dataset and the results. 
+Overall Score: Our overall weighted precision was 50%. This means that there were 165 true positive results out of the 332 total positive tests of the model. 
+What Influenced the score: The amount of observations and the ibu/abv cluster location
+
+Example 1: The ‘American Double’ group received among one of the best scores because it’s cluster contained many test observations in a space that was distant from the other clusters having the highest abv/ibu.
+
+Example 2: The ‘Other’ category was clustered closely to the other beers but performed decently due to the large number of observations 
+
+Example 3: The model predicted none of the ‘Fruit/Vegetable’ beers due to having among the lowest number of observations and it’s cluster being undifferentiated (similar ibu/abv) from the other beers.
 
 
 ## Machine Learning Model
