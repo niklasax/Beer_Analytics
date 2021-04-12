@@ -4,8 +4,6 @@
 
 [Link to Tableau Story](https://public.tableau.com/profile/nik6051#!/vizhome/Beer_Analytics/Beer_Analytics?publish=yes)
 
-[Link to Tableau Dashboard](https://public.tableau.com/views/CraftBeersProject/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
-
 
 ## Resources
 * **Data Analysis:** Python Pandas, SQLAlchemy
