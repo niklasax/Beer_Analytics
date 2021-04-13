@@ -61,7 +61,8 @@ Therefore, there is no a clear correlation between ABV & IBU and a style. So, th
 
 ### 3.) Result Interpretation and Data Visualization
 
-We successfully ran our model and [input results here]. From there, we visualized our results and dataset using Tableau story to illustrate features of our dataset and the results. 
+We successfully ran our model and with 50% accuracy. From there, we visualized our results and dataset using Tableau story to illustrate features of our dataset and the results.
+[ml_accuracy.png](https://github.com/niklasax/Final_Project/blob/main/Project_Pics/ml_accuracy.png)
 
 ## Database Integration
 An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
