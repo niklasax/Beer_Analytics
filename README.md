@@ -32,7 +32,7 @@ The first part of our Analyis involved cleaning and merging the datasets using P
 Preliminary data processing was done by cleaning the merged dataset using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis.
 
 ## How the data was split:
-First, the loaded dataset must be split into input and output components. Next, we can split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
+First, the loaded dataset was split into input and output components. Next, we split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
 
 We separated our dataset into our features and target:
 
@@ -57,7 +57,7 @@ We then created 100 trees of random samples of the data to train each tree on di
 * **American Brown Ale and American Porter seems to be are almost identical with relatively low IBU and wide range in acohol.
 * **American Pale Ale tends to be a soft beer.
 
-Therefore, there is no a clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
+Therefore, there is no clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
 
 ### 3.) Result Interpretation and Data Visualization
 
