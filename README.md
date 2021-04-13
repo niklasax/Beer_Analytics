@@ -14,7 +14,7 @@
 ## Topic and Data selected
 * **Selected Topic:** Craft Beer
 * **Reason for Selected topic:** This topic was one that all the members of the group had familiarity and interest in
-* **Description of the source data:** This Dataset contains two CSVs pertaining to beer types and breweries s from Kaggle.com:
+* **Description of the source data:** This Dataset contains two CSVs pertaining to beer types and breweries from Kaggle.com:
   * [Beers CSV file](https://www.kaggle.com/nickhould/craft-cans?select=beers.csv): Contains data specific to each craft beer (alcohol content, name, type etc..)
   * [Breweries CSV file](https://www.kaggle.com/nickhould/craft-cans?select=breweries.csv): Contains data specific to each Brewery (brewery name, state located in, city located in). Can be merged with beers.csv on 'brewery_id'.
 * **Questions we hope to answer with data:** Can we use machine learning to predict the type of alcohol based on features of the beer?
@@ -25,14 +25,14 @@ Our project wishes to answer one simple question- Can you determine a type of be
 
 ### 1.) Data Exploration and Database Integration
 
-The first part of our Analyis involved cleaning and merging the datasets using Python’s Pandas library to get rid of Null values, group attributes into a new columns and filter only for data that will be used in the final analysis. We connected AWS RDS to a local PostgresSQL server using SQLAlchemy, joined the data with a Postgres query and connected Postgres to our Machine Learning Model. 
+The first part of our Analyis involved cleaning and merging the datasets using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis. We connected AWS RDS to a local PostgresSQL server using SQLAlchemy, joined the data with a Postgres query and connected Postgres to our Machine Learning Model. 
 
 ### 2.) Machine Learning Model
 
 Preliminary data processing was done by cleaning the merged dataset using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis.
 
 ## How the data was split:
-First, the loaded dataset must be split into input and output components. Next, we can split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
+First, the loaded dataset was split into input and output components. Next, we split the dataset so that 75 percent is used to train the model and 25 percent is used to evaluate it. This split was chosen arbitrarily. We can then define and fit the model on the training dataset.
 
 We separated our dataset into our features and target:
 
@@ -57,7 +57,7 @@ We then created 100 trees of random samples of the data to train each tree on di
 * **American Brown Ale and American Porter seems to be are almost identical with relatively low IBU and wide range in acohol.
 * **American Pale Ale tends to be a soft beer.
 
-Therefore, there is no a clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
+Therefore, there is no clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
 
 ### 3.) Result Interpretation and Data Visualization
 
