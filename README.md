@@ -68,5 +68,6 @@ We successfully ran our model and with 50% accuracy. From there, we visualized o
 An AWS Postgres Database instance has been set up to store the cleaned and transformed data. 
 With the data accessible it is then read in directly to the python environment by incorporating the database connection in the machine learning notebook.  
 
-
+<b>Database Entity Relationship Diagram</b><br>
+![database_schema](https://github.com/niklasax/Final_Project/blob/main/beer_database/beer_db%20ERD.png)
 
