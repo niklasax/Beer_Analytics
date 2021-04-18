@@ -82,7 +82,7 @@ We chose Random Forest Classifier because it uses labeled data to “learn” ho
 We successfully ran our model and with 50% accuracy. From there, we visualized our results and dataset using Tableau story to illustrate features of our dataset and the results.
 
 * Example 1: The ‘American Double’ group received among one of the best scores because it’s cluster contained many test observations in a space that was distant from the other clusters having the highest abv/ibu.
-* Example 2: The ‘Other’ category was clustered closely to the other beers but performed decently due to the large number of observations 
+* Example 2: The ‘Other’ category was clustered closely to the other beers but performed decently due to the large number of observations.
 * Example 3: The model predicted none of the ‘Fruit/Vegetable’ beers due to having among the lowest number of observations and it’s cluster being undifferentiated (similar ibu/abv) from the other beers.
 
 ![](https://github.com/niklasax/Final_Project/blob/main/Project_Pics/ml_accuracy.png)
