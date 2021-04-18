@@ -69,9 +69,9 @@ First, the loaded dataset was split into input and output components. Next, we s
 
 We separated our dataset into our features and target:
 
-* **Feature (1) ABV: Alcohol by volume (abbreviated as ABV, abv, or alc/vol) is a standard measure of how much alcohol (ethanol) is contained in a given volume of an alcoholic beverage. (In our case... beer!).
-* **Feature (2) IBU: The International Bittering Units scale, or simply IBU scale, is used to approximately quantify the bitterness of beer.
-* **Target is Style_group, a term used to differentiate and categorize beers by factors such as color, flavor, strength, ingredients, production method, recipe, history, or origin.
+* Feature (1) ABV: Alcohol by volume (abbreviated as ABV, abv, or alc/vol) is a standard measure of how much alcohol (ethanol) is contained in a given volume of an alcoholic beverage. (In our case... beer!).
+* Feature (2) IBU: The International Bittering Units scale, or simply IBU scale, is used to approximately quantify the bitterness of beer.
+* Target is Style_group, a term used to differentiate and categorize beers by factors such as color, flavor, strength, ingredients, production method, recipe, history, or origin.
 
 ## Explanation of Model Choice
 We chose Random Forest Classifier because it uses labeled data to “learn” how to classify unlabeled data. Some of the benefits of using Random Forest algorithm is very stable, it works well when you have both categorical and numerical data, and it works well if your data hasn’t been scaled well. One of the disadvantages is that it is more complex which requires more computational resources.
