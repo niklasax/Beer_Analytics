@@ -61,7 +61,7 @@ We used a train/split of 75/25, so 75% of the data was used to train the model a
 **Overall Score:** Our overall weighted precision was 50%. This means that there were 165 true positive results out of the 332 total positive tests of the model. 
 
 **What Influenced the Score?:** The amount of observations and the ibu/abv cluster location relative to other clusters. The model was successful for Beer Styles that had more observations and a higher ibu/abv combination due to the more unique clusters it formed. Put another way, the model could recognize the more unique ibu/abv combinations better than the 
-=======
+
 Preliminary data processing was done by cleaning the merged dataset using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis.
 
 ## How the data was split:
