@@ -29,8 +29,6 @@
 
 
 ## Project Overview
-=======
-The first part of our Analyis involved cleaning and merging the datasets using Python’s Pandas library to get rid of Null values, group attributes into a new column and filter only for data that will be used in the final analysis. We connected AWS RDS to a local PostgresSQL server using SQLAlchemy, joined the data with a Postgres query and connected Postgres to our Machine Learning Model. 
 
 
 *See Google slides for more detail
@@ -39,6 +37,8 @@ The first part of our Analyis involved cleaning and merging the datasets using P
 ### 1.) Data Exploration, Manipulation and Integration
 
 The first part of our Analyis involved looking at the raw data to make sure it was usable for our analysis, we wanted to assure there were enough data points and enough diverse data points to use in a machine learning model. We cleaned and merged the datasets using Python’s Pandas library to get rid of Null values, group attributes into a new columns and filter only for data that will be used in the final analysis. After cleaning the data, we were left with 1326 unique data points to use which we determined was sufficient to use in our model. 
+
+![database_schema](https://github.com/niklasax/Final_Project/blob/main/beer_database/beer_db%20ERD.png)
 
 **How did we integrate our database?:** After cleaning the data, we connected AWS RDS to a local PostgresSQL server using SQLAlchemy, joined the data with a Postgres query and connected Postgres to our Machine Learning Model. 
 
@@ -113,6 +113,6 @@ Considerations for future tweaks of the model to improve accuracy:
 * Revisit Style groupings: We took the simple approach of grouping any beer with less than or equal to 26 occurrences into a single ‘other’ category. In a further analysis we could have split this into multiple groupings that considered ibu/abv combinations instead of grouping by occurrences.
 =======
 <b>Database Entity Relationship Diagram</b><br>
-![database_schema](https://github.com/niklasax/Final_Project/blob/main/beer_database/beer_db%20ERD.png)
+
 
 
