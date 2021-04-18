@@ -76,21 +76,6 @@ We separated our dataset into our features and target:
 ## Explanation of Model Choice
 We chose Random Forest Classifier because it uses labeled data to “learn” how to classify unlabeled data. Some of the benefits of using Random Forest algorithm is very stable, it works well when you have both categorical and numerical data, and it works well if your data hasn’t been scaled well. One of the disadvantages is that it is more complex which requires more computational resources.
 
-## Training
-We then created 100 trees of random samples of the data to train each tree on different samples. Predictions were then made by averaging the predictions of each decision tree. 
-
-## Results Explination
-
-## Conclusion
-
-* **American IPA and American Amber/ Red Ale combines too many IBUs and ABVs.
-* **The IBU and ABV range of American Blonde Ale and American Pale Wheat Ale are almost identical.
-* **Fruit / Vegetable Beer is the most soft flavours and then Hefeweizen.
-* **American Double / Imperial ALE is most bitterness and alcoholic beer.
-* **American Brown Ale and American Porter seems to be are almost identical with relatively low IBU and wide range in acohol.
-* **American Pale Ale tends to be a soft beer.
-
-Therefore, there is no clear correlation between ABV & IBU and a style. So, the simple scale is not available to clearly distinguish beer styles.
 
 ### 3.) Result Interpretation and Data Visualization
 
@@ -111,8 +96,7 @@ Considerations for future tweaks of the model to improve accuracy:
 * Use more train data: We only used 25% train this time, in the future we could potentially go up to 30%
 * Add more variables: We could’ve used more X variables in our analysis such as location (State, City) to see if the accuracy results would improve
 * Revisit Style groupings: We took the simple approach of grouping any beer with less than or equal to 26 occurrences into a single ‘other’ category. In a further analysis we could have split this into multiple groupings that considered ibu/abv combinations instead of grouping by occurrences.
-=======
-<b>Database Entity Relationship Diagram</b><br>
+
 
 
 
